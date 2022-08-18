@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/coupons-banners",
+      "handler": "coupons-banner.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/coupons-banners/count",
+      "handler": "coupons-banner.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/coupons-banners/:id",
+      "handler": "coupons-banner.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/coupons-banners",
+      "handler": "coupons-banner.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/coupons-banners/:id",
+      "handler": "coupons-banner.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/coupons-banners/:id",
+      "handler": "coupons-banner.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
