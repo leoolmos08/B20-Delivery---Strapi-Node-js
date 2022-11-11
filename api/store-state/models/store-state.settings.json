@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "store_states",
+  "info": {
+    "name": "Store-State"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "open": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

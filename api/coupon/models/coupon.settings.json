@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "coupons",
   "info": {
-    "name": "coupon"
+    "name": "coupon",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -28,6 +29,10 @@
     "description": {
       "type": "string",
       "required": false
+    },
+    "price": {
+      "type": "integer",
+      "required": true
     }
   }
 }
